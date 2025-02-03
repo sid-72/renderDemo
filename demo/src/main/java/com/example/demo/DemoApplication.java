@@ -13,8 +13,8 @@ public class DemoApplication {
 	@RestController
 	class DemoController{
 		@GetMapping("/hello")
-		fun hello() : String {
-			return "Hello"
+		public String hello() {
+			return "Hello";
 		}
 	}
 
